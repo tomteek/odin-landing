@@ -13,9 +13,8 @@ body {
 .nav {
     display: flex;
     background-color: #25242b;
-    padding: 10px 200px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: white;
 }
 
@@ -36,10 +35,9 @@ ul {
     background-color: #25242b;
     color: white;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     flex-shrink: 1;
-    padding: 30px 200px 50px 200px;
+    justify-content: space-evenly;
+    padding: 30px;
 }
 
 h1 {
@@ -48,7 +46,7 @@ h1 {
 }
 
 p {
-    width: 400px;
+    max-width: 400px;
 }
 
 button {
@@ -84,7 +82,7 @@ h2 {
 }
 
 .cardcontainer {
-    padding: 10px 0 80px 0;
+    padding: 10px;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -101,4 +99,60 @@ h2 {
 
 .info {
     max-width: 100px;
+}
+
+.quote {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    gap:20px;
+}
+
+.words {
+    font-size: 2rem;
+    max-width: 500px
+}
+
+.author {
+    width: 500px;
+    text-align: end;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.callsection {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calldiv {
+    background-color: royalblue;
+    color: white;
+    padding: 60px;
+    margin: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.call h3 {
+    margin: 0;
+}
+
+.call p {
+    margin: 0;
+}
+
+.callbutton {
+    border: 2px solid white;
+    height: 40px;
 }

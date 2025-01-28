@@ -35,9 +35,19 @@ ul {
     background-color: #25242b;
     color: white;
     display: flex;
-    flex-shrink: 1;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 30px;
+}
+
+.heroleft {
+    width: 40%;
+}
+
+.heroright {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -46,7 +56,7 @@ h1 {
 }
 
 p {
-    max-width: 400px;
+    width: 90%;
 }
 
 button {
@@ -58,11 +68,13 @@ button {
     background-color: blue;
 }
 
+
+
 img {
     margin: 0;
     padding: 0;
-    width: 380px;
     height: auto;
+    width: 95%;
     border: none;
 }
 
@@ -155,4 +167,13 @@ h2 {
 .callbutton {
     border: 2px solid white;
     height: 40px;
+}
+
+.footer {
+    background-color: #25242b;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
